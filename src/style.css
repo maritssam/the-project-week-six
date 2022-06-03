@@ -1,0 +1,97 @@
+body {
+  font-family: sans-serif;
+}
+body {
+  font-family: "Secular One", sans-serif;
+  color: white;
+  background: linear-gradient(
+    89.9deg,
+    rgb(208, 246, 255) 0.1%,
+    rgb(255, 237, 237) 47.9%,
+    rgb(255, 255, 231) 100.2%
+  );
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+button {
+  right: -210px;
+  top: -37px;
+}
+
+.weather-app {
+  background: #887575;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 750px;
+}
+.today {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.input-group {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 415px;
+}
+.btn-outline-secondary {
+  color: white;
+  border-color: brown;
+}
+
+.align-items-start,
+.weather-detail {
+  font-size: 18px;
+}
+.current-weather-icon {
+  position: relative;
+  top: -25px;
+  left: 20px;
+}
+.current-temperature {
+  font-size: 35px;
+  font-weight: normal;
+  position: relative;
+}
+.unit {
+  position: relative;
+  top: -12px;
+}
+.active {
+  color: rgba(255, 255, 255, 0.678);
+  cursor: default;
+  text-decoration: none;
+}
+.active:hover {
+  text-decoration: none;
+}
+.current-location {
+  font-size: 24px;
+}
+.current-location-info {
+  text-align: right;
+  padding: 0 30px;
+}
+.align-items-end {
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.weather-forecast-icon {
+  max-width: 50%;
+}
+.weather-forecast-temp-min {
+  opacity: 70%;
+}
+
+.github-link {
+  color: midnightblue;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 750px;
+  display: block;
+}
